@@ -5,16 +5,15 @@ A PostgreSQL database containing typical Hair Salon data populated using Bash sc
 - [PostgreSQL](https://www.postgresql.org/download/)
 - [Bash](https://www.gnu.org/software/bash/)
 
-## Installation
-- Clone this repo: 
-`git clone https://github.com/travboz/Salon-Appointment-Scheduler.git`.
-
 ## Files
 - `salon.sql`: PSQL dump of queries and commands to generate the database, create the tables, and insert some dummy data.
 - `salon.sh`: Small Bash script functioning as the interactive shell to insert data.
 - `examples.txt`: Examples used as reference for implementation of features (guided code creation).
 - `salon_predump.sql`: The SQL commands I used to create the database, tables, and dummy data.
-- 
+
+## Installation
+- Clone this repo: 
+`git clone https://github.com/travboz/Salon-Appointment-Scheduler.git`.
 
 - Navigate into your project directory: 
 `cd your_project_folder/Salon-Appointment-Scheduler` (for example).
@@ -27,6 +26,8 @@ When in the folder containing the `salon.sql` file, run the following command to
 
 Using a program like [pgAdmin](https://www.pgadmin.org/download/) you can inspect the architecture of the database. Alternatively, you can use SQL queries to explore.
 
+
+## Tables
 There exist three tables with each table containing relevant information.
 
 | Table Name    | Description                                                                                                           |
